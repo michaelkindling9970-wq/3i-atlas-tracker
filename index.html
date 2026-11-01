@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>3I/ATLAS — Interstellar Visitor Tracker</title><meta name="description" content="Animated trajectory of interstellar comet 3I/ATLAS (C/2025 N1) through the Solar System, with dated news pins.">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg"><meta name="theme-color" content="#05060f"><link rel="apple-touch-icon" href="icon-192.png">
+<style>
+:root{--bg:#05060f;--pan:#0d1024cc;--ln:#232a52;--tx:#dfe6ff;--mu:#8a93c2;--ac:#4fe3ff;--hot:#ff7a3c}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 60% 40%,#0b1030,#05060f 70%);color:var(--tx);font:14px/1.45 system-ui,Segoe UI,Roboto,sans-serif;min-height:100vh}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:14px 20px;border-bottom:1px solid var(--ln)}
+h1{margin:0;font-size:20px;letter-spacing:.5px}h1 span{color:var(--ac)}.sub{color:var(--mu);font-size:12px}
+.dl a{color:var(--tx);border:1px solid var(--ln);padding:6px 10px;border-radius:8px;text-decoration:none;margin-left:6px;font-size:12px;display:inline-block;margin-top:4px}.dl a:hover{border-color:var(--ac)}
+main{display:grid;grid-template-columns:320px 1fr;gap:14px;padding:14px}
+@media(max-width:900px){main{grid-template-columns:1fr}#side{order:2}}
+.card{background:var(--pan);border:1px solid var(--ln);border-radius:14px;padding:14px;backdrop-filter:blur(6px)}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}.st{background:#0a0d20;border:1px solid var(--ln);border-radius:10px;padding:8px}.st b{display:block;font-size:16px;color:var(--ac)}.st small{color:var(--mu);font-size:11px}
+.st.wide{grid-column:span 2}h2{font-size:13px;text-transform:uppercase;letter-spacing:1.5px;color:var(--mu);margin:4px 0 10px}
+#viewWrap{position:relative;height:min(78vh,820px);min-height:420px;padding:0;overflow:hidden}canvas{width:100%;height:100%;display:block;cursor:grab}
+#hud{position:absolute;left:14px;top:12px;pointer-events:none}#date{font-size:26px;font-weight:700;font-variant-numeric:tabular-nums}#live{color:var(--mu);font-size:12px;font-variant-numeric:tabular-nums}
+#ctrl{position:absolute;left:0;right:0;bottom:0;padding:10px 14px;background:linear-gradient(transparent,#05060fee);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+button,select{background:#141a3a;color:var(--tx);border:1px solid var(--ln);border-radius:8px;padding:6px 10px;font:inherit;cursor:pointer}button:hover{border-color:var(--ac)}
+input[type=range]{flex:1;min-width:160px;accent-color:var(--ac)}
+#tip{position:absolute;max-width:320px;background:#0b0f26f2;border:1px solid var(--ac);border-radius:12px;padding:12px;display:none;box-shadow:0 10px 40px #000a;z-index:5;animation:pop .25s}
+#tip .d{color:var(--hot);font-size:12px;font-variant-numeric:tabular-nums}#tip h3{margin:4px 0 6px;font-size:15px}#tip a{color:var(--ac)}#tip .x{float:right;cursor:pointer;color:var(--mu)}
+@keyframes pop{from{transform:scale(.8);opacity:0}to{transform:none;opacity:1}}
+#feed{max-height:340px;overflow:auto;margin-top:8px}#feed div{padding:6px 4px;border-bottom:1px solid #1a2045;cursor:pointer;font-size:12px}#feed div:hover{background:#141a3a}#feed .on{color:var(--tx)}#feed .off{color:#4a5080}
+.lg{font-size:11px;color:var(--mu);display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}.lg i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+footer{color:var(--mu);font-size:11px;padding:6px 20px 24px}footer a{color:var(--mu)}
+</style></head><body>
+<header><div><h1><span>3I/ATLAS</span> · Interstellar Visitor Tracker</h1><div class="sub">C/2025 N1 — the third known object from another star system · trajectory from NASA/JPL Horizons</div></div>
+<div class="dl">Desktop shortcut: <a href="downloads/3I-ATLAS-Tracker.url" download>Windows</a><a href="downloads/3I-ATLAS-Tracker.webloc" download>macOS</a><a href="downloads/3I-ATLAS-Tracker.desktop" download>Linux</a><a href="downloads/3I-ATLAS-Tracker-shortcuts.zip" download>All (.zip)</a><a href="#" id="inst" style="display:none">Install app</a></div></header>
+<main><aside id="side">
+<div class="card"><h2>Key stats</h2><div class="stats" id="stats"></div></div>
+<div class="card" style="margin-top:14px"><h2>News pins (<span id="pc"></span>)</h2><div class="sub">Pins appear on each article's publication date at the comet's position that day. Click to open.</div><div id="feed"></div></div>
+</aside>
+<section class="card" id="viewWrap"><canvas id="cv"></canvas>
+<div id="hud"><div id="date"></div><div id="live"></div></div><div id="tip"></div>
+<div id="ctrl"><button id="play">⏸ Pause</button><select id="spd"><option value="2">2 d/s</option><option value="7" selected>1 wk/s</option><option value="30">1 mo/s</option><option value="90">3 mo/s</option></select>
+<input type="range" id="scrub" min="0" max="1000" value="0"><button id="today">◎ Today</button><button id="zin">＋</button><button id="zout">－</button></div>
+</section></main>
+<footer><div class="lg"><span><i style="background:#ffd34d"></i>Sun</span><span><i style="background:#4fe3ff"></i>3I/ATLAS (solid = flown, dashed = projected)</span><span><i style="background:#ff7a3c"></i>News pin</span><span><i style="background:#7dff9b"></i>"You are here today" (Nov 1 2026)</span><span>Radial scale is square-root compressed so inner planets and the outbound path both fit. Top-down view of the ecliptic plane.</span></div>
+<p>Data: orbit &amp; planet positions — <a href="https://ssd.jpl.nasa.gov/horizons/">NASA/JPL Horizons</a> (solution JPL#55, fetched 2026-11-01, includes non-gravitational terms). News pins link to original sources. Positions after the last observation are projections. Not affiliated with NASA or ESA.</p></footer>
+<script src="app.js"></script></body></html>

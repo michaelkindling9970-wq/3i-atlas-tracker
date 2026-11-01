@@ -1,0 +1,266 @@
+[
+{
+"t": "2025-07-02T19:36",
+"src": "NASA",
+"title": "NASA Discovers Interstellar Comet Moving Through Solar System",
+"url": "https://science.nasa.gov/blogs/planetary-defense/2025/07/02/nasa-discovers-interstellar-comet-moving-through-solar-system/",
+"text": "The ATLAS survey telescope in Rio Hurtado, Chile reported the object on July 1, 2025; its hyperbolic path marks it as only the third known interstellar object.",
+"tag": "discovery"
+},
+{
+"t": "2025-07-03",
+"src": "Royal Astronomical Society",
+"title": "Newly discovered interstellar object 'may be oldest comet ever seen'",
+"url": "https://ras.ac.uk/news-and-press/research-highlights/newly-discovered-interstellar-object-may-be-oldest-comet-ever",
+"text": "Oxford researchers' population model suggests 3I/ATLAS likely comes from the Milky Way's ancient thick disk and could be older than the Solar System.",
+"tag": "origin"
+},
+{
+"t": "2025-07-07",
+"src": "arXiv (Hopkins et al.)",
+"title": "From a Different Star: 3I/ATLAS in the Context of the Ōtautahi–Oxford Interstellar Object Population Model",
+"url": "https://arxiv.org/abs/2507.05318",
+"text": "Paper estimates an age over 7.6 billion years (68% range ~7.6–14 Gyr) and predicts a water-rich, thick-disk origin.",
+"tag": "origin"
+},
+{
+"t": "2025-07-11T09:01",
+"src": "BBC News",
+"title": "3I/Atlas: Mystery interstellar object could be the oldest known comet",
+"url": "https://www.bbc.com/news/articles/cx23g5jpj9go",
+"text": "Mainstream coverage of the 'oldest comet' estimate, possibly billions of years older than our Sun.",
+"tag": "origin"
+},
+{
+"t": "2025-07-16",
+"src": "arXiv (Hibberd, Crowl & Loeb)",
+"title": "Is the Interstellar Object 3I/ATLAS Alien Technology?",
+"url": "https://arxiv.org/abs/2507.12213",
+"text": "A deliberately speculative paper flagging its retrograde orbit aligned within ~5° of the ecliptic and close planetary passes as possible technosignature 'anomalies'. Most astronomers treat 3I/ATLAS as a natural comet.",
+"tag": "loeb"
+},
+{
+"t": "2025-08-07T10:00",
+"src": "NASA / Hubble",
+"title": "As NASA Missions Study Interstellar Comet, Hubble Makes Size Estimate",
+"url": "https://science.nasa.gov/missions/hubble/as-nasa-missions-study-interstellar-comet-hubble-makes-size-estimate/",
+"text": "Hubble's July 21 images show a teardrop-shaped dust cocoon; nucleus is at most ~5.6 km wide and could be as small as ~440 m.",
+"tag": "size"
+},
+{
+"t": "2025-08-25T16:30",
+"src": "NASA / Webb",
+"title": "NASA's Webb Space Telescope Observes Interstellar Comet",
+"url": "https://science.nasa.gov/blogs/3iatlas/2025/08/25/nasas-webb-space-telescope-observes-interstellar-comet/",
+"text": "JWST NIRSpec found a coma dominated by carbon dioxide, with a CO2/H2O ratio (~7.6) among the highest ever seen in a comet.",
+"tag": "composition"
+},
+{
+"t": "2025-08-25T16:30",
+"src": "NASA / SPHEREx",
+"title": "NASA's New SPHEREx Mission Observes Interstellar Comet",
+"url": "https://science.nasa.gov/blogs/3iatlas/2025/08/25/nasas-new-spherex-mission-observes-interstellar-comet/",
+"text": "SPHEREx (Aug 8–12) detected an extended CO2 gas coma and water ice, when the comet was ~470 million km from the Sun.",
+"tag": "composition"
+},
+{
+"t": "2025-08-25",
+"src": "arXiv (VLT team)",
+"title": "VLT Observations of 3I/ATLAS II: Dramatic Rise of Ni I Emission",
+"url": "https://arxiv.org/abs/2508.18382",
+"text": "Nickel emission detected while iron was not, at distances where metals shouldn't sublimate — an unusual chemistry clue.",
+"tag": "composition"
+},
+{
+"t": "2025-09-30",
+"src": "arXiv",
+"title": "Extreme NiI/FeI abundance ratio in the coma of 3I/ATLAS",
+"url": "https://arxiv.org/abs/2509.26053",
+"text": "Measured nickel-to-iron ratio far above that of Solar System comets and of 2I/Borisov.",
+"tag": "composition"
+},
+{
+"t": "2025-10-07",
+"src": "ESA",
+"title": "ESA's ExoMars and Mars Express observe Comet 3I/ATLAS",
+"url": "https://www.esa.int/Science_Exploration/Space_Science/ESA_s_ExoMars_and_Mars_Express_observe_Comet_3I_ATLAS",
+"text": "During its Oct 3 closest approach to Mars (~30 million km), ExoMars TGO's CaSSIS camera imaged the comet's coma.",
+"tag": "images"
+},
+{
+"t": "2025-10-28",
+"src": "arXiv (Zhang et al.)",
+"title": "Rapid Brightening of 3I/ATLAS Ahead of Perihelion",
+"url": "https://arxiv.org/abs/2510.25035",
+"text": "Solar coronagraphs (STEREO, SOHO, GOES-19) showed brightness rising as r^-7.5 near the Sun, and a coma bluer than the Sun.",
+"tag": "brightening"
+},
+{
+"t": "2025-11-03",
+"src": "SETI Institute",
+"title": "Comet 3I/ATLAS Perihelion Update",
+"url": "https://www.seti.org/news/comet-3iatlas-perihelion-update/",
+"text": "An unexpected surge in brightness before solar conjunction; non-gravitational 'thruster-like' outgassing is being tracked.",
+"tag": "brightening"
+},
+{
+"t": "2025-11-07T21:09",
+"src": "Space.com",
+"title": "No, interstellar comet 3I/ATLAS hasn't 'changed color', scientist says",
+"url": "https://www.space.com/astronomy/comets/no-interstellar-comet-3i-atlas-hasnt-changed-color-scientists-say",
+"text": "A study author pushes back on viral 'color change' headlines: the gas coma made it look bluer, not a mysterious transformation.",
+"tag": "color"
+},
+{
+"t": "2025-11-19T15:56",
+"src": "NASA",
+"title": "NASA's Mars Spacecraft Capture Images of Comet 3I/ATLAS",
+"url": "https://www.nasa.gov/solar-system/planets/mars/nasas-mars-spacecraft-capture-images-of-comet-3i-atlas/",
+"text": "MRO, MAVEN and Perseverance imaged the comet from Mars — the closest vantage of any NASA asset.",
+"tag": "images"
+},
+{
+"t": "2025-11-19T15:36",
+"src": "NASA / STEREO",
+"title": "NASA's STEREO Observes Interstellar Comet 3I/ATLAS",
+"url": "https://science.nasa.gov/blogs/3iatlas/2025/11/19/nasas-stereo-observes-interstellar-comet-3i-atlas/",
+"text": "STEREO tracked the comet Sept 11–Oct 2 while it was hidden behind the Sun from Earth.",
+"tag": "images"
+},
+{
+"t": "2025-11-19T15:30",
+"src": "NASA / PUNCH",
+"title": "NASA's PUNCH Spies Interstellar Comet 3I/ATLAS",
+"url": "https://science.nasa.gov/blogs/3iatlas/2025/11/19/nasas-punch-spies-interstellar-comet-3i-atlas/",
+"text": "Stacked PUNCH images reveal the comet's tail as a short elongation.",
+"tag": "tail"
+},
+{
+"t": "2025-11-19T15:33",
+"src": "NASA / ESA SOHO",
+"title": "NASA-ESA's SOHO Observes Interstellar Comet 3I/ATLAS",
+"url": "https://science.nasa.gov/blogs/3iatlas/2025/11/19/nasa-esas-soho-observes-interstellar-comet-3i-atlas/",
+"text": "SOHO's LASCO C3 coronagraph caught the comet Oct 15–26 near perihelion.",
+"tag": "images"
+},
+{
+"t": "2025-11-19T15:28",
+"src": "NASA / Lucy",
+"title": "NASA's Lucy Spacecraft Snaps Photos of Interstellar Comet 3I/ATLAS",
+"url": "https://science.nasa.gov/blogs/lucy/2025/11/19/nasas-lucy-spacecraft-snaps-photos-of-interstellar-comet-3i-atlas/",
+"text": "Lucy imaged the comet and its tail from ~240 million miles away in mid-September.",
+"tag": "tail"
+},
+{
+"t": "2025-12-03T11:36",
+"src": "NASA / Psyche",
+"title": "NASA's Psyche Mission Tracks Interstellar Comet 3I/ATLAS",
+"url": "https://science.nasa.gov/blogs/psyche/2025/12/03/nasas-psyche-mission-tracks-interstellar-comet-3i-atlas/",
+"text": "Four observations over eight hours on Sept 8–9 from ~53 million km helped refine the orbit.",
+"tag": "trajectory"
+},
+{
+"t": "2025-12-04T10:16",
+"src": "NASA / Hubble",
+"title": "NASA's Hubble Space Telescope Revisits Interstellar Comet",
+"url": "https://science.nasa.gov/blogs/3iatlas/2025/12/04/nasas-hubble-space-telescope-revisits-interstellar-comet/",
+"text": "Hubble re-imaged the comet on Nov 30 from ~286 million km after it emerged from behind the Sun.",
+"tag": "images"
+},
+{
+"t": "2025-12-10",
+"src": "RNAAS (Eubanks et al.)",
+"title": "Determination of the Non-gravitational Accelerations of 3I/ATLAS",
+"url": "https://iopscience.iop.org/article/10.3847/2515-5172/ae2915",
+"text": "Spacecraft astrometry shows significant non-gravitational acceleration in all three axes, peaking ~35 days before perihelion — a 'course change' consistent with outgassing; implies mass ~44 million tons, radius ≲374 m.",
+"tag": "course"
+},
+{
+"t": "2025-12-15",
+"src": "The Astronomer's Telegram #17555",
+"title": "Jets in the inner coma of comet 3I/ATLAS",
+"url": "https://www.astronomerstelegram.org/?read=17555",
+"text": "Hubble Nov 30 data show a sunward anti-tail plus six faint straight jets in symmetric pairs. (Exact ATel posting day not verified; placed mid-Dec 2025.)",
+"tag": "jets"
+},
+{
+"t": "2025-12-18T12:01",
+"src": "NASA / Europa Clipper",
+"title": "NASA's Europa Clipper Observes Comet 3I/ATLAS",
+"url": "https://science.nasa.gov/blogs/europa-clipper/2025/12/18/nasas-europa-clipper-observes-comet-3i-atlas/",
+"text": "Europa-UVS observed the comet on Nov 6 from ~164 million km in ultraviolet light.",
+"tag": "images"
+},
+{
+"t": "2025-12-19T16:14",
+"src": "NASA / Parker Solar Probe",
+"title": "NASA's Parker Solar Probe Observes Interstellar Comet 3I/ATLAS",
+"url": "https://science.nasa.gov/blogs/parker-solar-probe/2025/12/19/nasas-parker-solar-probe-observes-interstellar-comet-3i-atlas/",
+"text": "WISPR took ~10 images a day Oct 18–Nov 5 as the comet swung around the Sun.",
+"tag": "images"
+},
+{
+"t": "2025-12-26",
+"src": "arXiv",
+"title": "Anti-tail and nucleus-size constraints for 3I/ATLAS",
+"url": "https://arxiv.org/abs/2512.22365",
+"text": "Analyzes the tightly collimated sunward 'anti-tail' and compiles nucleus-size estimates from ~0.5 km to several km.",
+"tag": "tail"
+},
+{
+"t": "2026-01-27T14:08",
+"src": "NASA / TESS",
+"title": "NASA's TESS Reobserves Comet 3I/ATLAS",
+"url": "https://science.nasa.gov/blogs/3iatlas/2026/01/27/nasas-tess-reobserves-comet-3i-atlas/",
+"text": "Special TESS run Jan 15–22 to study the comet's activity and rotation.",
+"tag": "images"
+},
+{
+"t": "2026-02-04T11:14",
+"src": "NASA / SPHEREx",
+"title": "NASA's SPHEREx Mission Tracks Brightening of Interstellar Comet",
+"url": "https://science.nasa.gov/blogs/spherex/2026/02/04/nasas-spherex-mission-tracks-brightening-of-interstellar-comet/",
+"text": "December 2025 infrared maps show the coma brightened in dust, water, organics and CO2 after perihelion.",
+"tag": "brightening"
+},
+{
+"t": "2026-02-15",
+"src": "ESA / Juice",
+"title": "First glimpse of Comet 3I/ATLAS from Juice science camera",
+"url": "https://www.esa.int/ESA_Multimedia/Images/2026/02/First_glimpse_of_Comet_3I_ATLAS_from_Juice_science_camera",
+"text": "JANUS image from Nov 6, 2025 shows coma, a long tail and hints of rays, jets and filaments. (Published Feb 2026; day approximate.)",
+"tag": "jets"
+},
+{
+"t": "2026-03-20T15:06",
+"src": "NASA Open Science",
+"title": "Interstellar Comet 3I/ATLAS Data",
+"url": "https://science.nasa.gov/open-science/interstellar-comet-3i-atlas-data/",
+"text": "More than a dozen NASA missions' 3I/ATLAS data are being archived publicly for future research.",
+"tag": "data"
+},
+{
+"t": "2026-06-01T10:57",
+"src": "NASA / Webb",
+"title": "NASA's Webb Detects Methane on Interstellar Comet 3I/ATLAS",
+"url": "https://science.nasa.gov/blogs/3iatlas/2026/06/01/nasas-webb-detects-methane-on-interstellar-comet-3i-atlas/",
+"text": "Webb's first mid-infrared chemical fingerprint of an interstellar object reveals methane.",
+"tag": "composition"
+},
+{
+"t": "2026-06-22T11:00",
+"src": "NASA / Webb",
+"title": "NASA's Webb Finds Clues to Ancient, Distant Origin of Comet 3I/ATLAS",
+"url": "https://science.nasa.gov/missions/webb/nasas-webb-finds-clues-to-ancient-distant-origin-of-comet-3i-atlas/",
+"text": "December 2025 Webb measurements of H2O, CO2 and CO comas give chemical clues to an ancient, distant birthplace.",
+"tag": "origin"
+},
+{
+"t": "2026-07-28",
+"src": "ApJ Letters (Juice/MAJIS)",
+"title": "Near-perihelion Activity and Composition of 3I/ATLAS from JUICE/MAJIS",
+"url": "https://iopscience.iop.org/article/10.3847/2041-8213/ae8a47",
+"text": "Juice saw water production fall from 8e28 to 4e28 molecules/s in Nov 2025, CO2 driving activity, and tentative complex organics.",
+"tag": "composition"
+}
+]
